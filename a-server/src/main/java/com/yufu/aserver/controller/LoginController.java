@@ -12,6 +12,8 @@ public class LoginController {
 
     @GetMapping("login")
     public Object login(){
+
+        //user is exist?
         return authServerHandler.sayHiFromClientOne();
     }
 }
